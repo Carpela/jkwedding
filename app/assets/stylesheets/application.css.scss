@@ -21,8 +21,12 @@
 * Designed and built with all the love in the world @twitter by @mdo and @fat.
 */
 @font-face {
- font-family: handserif;
- src: url('handserif.ttf');
+	font-family: handserif;
+	src: font-url('handserif.eot'); /* EOT file for IE */
+}
+@font-face {
+	font-family: handserif;
+	src: font-url('handserif.ttf'); /* TTF file for CSS3 browsers */
 }
 
 
