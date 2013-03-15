@@ -8,7 +8,7 @@ Jkwedding::Application.routes.draw do
   root to: "static_pages#home"
   match '/order', to: "static_pages#order"
 
-  match '/signup', to: 'users#new'
+  match '/directions', to: 'static_pages#directions'
 
   match '/help', to: "static_pages#help"
 
