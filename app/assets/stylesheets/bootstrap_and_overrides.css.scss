@@ -5,6 +5,7 @@
 	font-url('handserif.eot') format('eot'); /* TTF file for CSS3 browsers */
 }
 $baseFontFamily: handserif, serif;
+
 @import "bootstrap";
 body { padding-top: 60px; }
 body,

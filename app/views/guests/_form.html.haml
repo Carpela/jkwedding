@@ -6,16 +6,33 @@
         - @guest.errors.full_messages.each do |msg|
           %li= msg
 
-  .field
-    = f.label :firstname
-    = f.text_field :firstname
-  .field
-    = f.label :lastname
-    = f.text_field :lastname
-  .field
-    = f.label :specialfood
-    = f.text_field :specialfood
-  %p It would be really useful to know which parts of the wedding you're planning to come to
+  .row.offset3
+    .field
+      .span1
+        = f.label :firstname
+      .span3
+        = f.text_field :firstname
+  .row.offset3
+    .field
+      .span1
+        = f.label :lastname
+      .span3
+        = f.text_field :lastname
+  .row.offset3
+    .field
+      .span1
+        = f.label :email
+      .span3
+        = f.text_field :email
+  .row
+    .span12
+      %h4 Any dietary requirements
+  .row
+    .span12
+      = f.text_area :specialfood
+  .row
+    .span12
+      %h4 It would be really useful to know which parts of the wedding you're planning to come to
   .row
 
     .field
