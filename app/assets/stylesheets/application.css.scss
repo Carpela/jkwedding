@@ -24,14 +24,13 @@
 @import "bootstrap";
 */
 @font-face {
- font-family: handserif;
- src: url("<%= asset_path('handserif.eot') %>"); /* EOT file for IE */
+	font-family: handserif;
+	src: font-url('handserif.eot'); /* EOT file for IE */
 }
 @font-face {
- font-family: handserif;
- src: url("<%= asset_path('handserif.ttf') %>") /* TTF file for CSS3 browsers */
+	font-family: handserif;
+	src: font-url('handserif.ttf'); /* TTF file for CSS3 browsers */
 }
-
 
 
 .timeslot {
