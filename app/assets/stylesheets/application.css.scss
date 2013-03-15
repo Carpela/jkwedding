@@ -25,8 +25,13 @@
 */
 @font-face {
  font-family: handserif;
- src: url('handserif.ttf');
+ src: url("<%= asset_path('handserif.eot') %>"); /* EOT file for IE */
 }
+@font-face {
+ font-family: handserif;
+ src: url("<%= asset_path('handserif.ttf') %>") /* TTF file for CSS3 browsers */
+}
+
 
 
 .timeslot {
