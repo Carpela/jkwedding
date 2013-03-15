@@ -1,23 +1,11 @@
 %p#notice= notice
 
 %p
-  %b Firstname:
+  %b firstname:
   = @guest.firstname
 %p
-  %b Lastname:
+  %b lastname:
   = @guest.lastname
-%p
-  %b Specialfood:
-  = @guest.specialfood
-%p
-  %b Ceremony:
-  = @guest.ceremony
-%p
-  %b Meal:
-  = @guest.meal
-%p
-  %b Evening:
-  = @guest.evening
 
 = link_to 'Edit', edit_guest_path(@guest)
 \|
