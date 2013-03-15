@@ -15,14 +15,22 @@
   .field
     = f.label :specialfood
     = f.text_field :specialfood
+  %p It would be really useful to know which parts of the wedding you're planning to come to
+ 
   .field
-    = f.label :ceremony
-    = f.check_box :ceremony
-  .field
-    = f.label :meal
-    = f.check_box :meal
-  .field
-    = f.label :evening
-    = f.check_box :evening
-  .actions
-    = f.submit 'Save'
+    .span3
+    .span2
+      = f.label :ceremony
+      = f.check_box :ceremony
+    .span2
+      = f.label :meal
+      = f.check_box :meal  
+    .span2
+      = f.label :evening
+      = f.check_box :evening
+    .span3
+  .span12
+    .container
+      .actions
+        = f.submit 'Save'
+  .container

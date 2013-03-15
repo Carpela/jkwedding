@@ -1,6 +1,18 @@
 /* typography */
-$sansFontFamily: 'Eagle Eye','PT Sans Narrow', 'Lucida Grande', serif;
-
+@font-face {
+	font-family: handserif;
+	src: font-url('handserif.ttf') format('truetype'),
+	font-url('handserif.eot') format('eot'); /* TTF file for CSS3 browsers */
+}
+$baseFontFamily: handserif, serif;
 @import "bootstrap";
 body { padding-top: 60px; }
+body,
+input,
+button,
+select,
+textarea,
+.navbar-search .search-query {
+  font-family: handserif, serif;
+}
 @import "bootstrap-responsive";

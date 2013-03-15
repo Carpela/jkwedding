@@ -20,6 +20,7 @@
 *
 * Designed and built with all the love in the world @twitter by @mdo and @fat.
 */
+
 @font-face {
 	font-family: handserif;
 	src: font-url('handserif.eot'); /* EOT file for IE */
@@ -95,7 +96,7 @@ section {
 }
 
 footer {
-	position:fixed;
+	position:float;
 	bottom:0px;
 	left:0px;
 	max-width: 100%;
