@@ -1,3 +1,18 @@
+.navbar-inner{
+  background-color:#050505;
+  background-image:-moz-linear-gradient(top, #080808, #000000);
+  background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#080808), to(#000000));
+  background-image:-webkit-linear-gradient(top, #080808, #000000);
+  background-image:-o-linear-gradient(top, #080808, #000000);
+  background-image:linear-gradient(to bottom, #080808, #000000);
+  background-repeat:repeat-x;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff080808', endColorstr='#ff000000', GradientType=0);
+  color: #FEFFF1;
+}
+.navbar .brand{
+  color:#FEFFF1;
+}
+
 body {
   background-color: transparent;
   color: #333;
@@ -18,10 +33,17 @@ pre {
   font-size: 11px;
 }
 
+.nav a{
+  color: #FEFFF1;
+  &:hover {
+  color: #fff; 
+  }
+}
+
 a {
   color: #000;
   &:visited {
-    color: #666;
+  
   }
   &:hover {
     color: #fff;

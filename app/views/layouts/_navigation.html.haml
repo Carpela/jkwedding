@@ -1,6 +1,6 @@
 = link_to "J&K's wedding", root_path, :class => 'brand'
 
 %h3.nav.pull-right
-	= link_to "Tell us you're coming", new_guest_path
-
-	= link_to "Guest List", guests_path	
+	= link_to "RSVP", new_guest_path
+	= mail_to "wedding@betteley.me", "Contact"
+	-#= link_to "Guest List", guests_path	
