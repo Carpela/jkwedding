@@ -16,20 +16,24 @@
     = f.label :specialfood
     = f.text_field :specialfood
   %p It would be really useful to know which parts of the wedding you're planning to come to
- 
-  .field
-    .span3
-    .span2
-      = f.label :ceremony
-      = f.check_box :ceremony
-    .span2
-      = f.label :meal
-      = f.check_box :meal  
-    .span2
-      = f.label :evening
-      = f.check_box :evening
-    .span3
-  .div
-    .actions
-      = f.submit 'Save'
+  .row
+
+    .field
+      .span3
+      .span2
+        = f.label :ceremony
+        = f.check_box :ceremony
+      .span2
+        = f.label :meal
+        = f.check_box :meal  
+      .span2
+        = f.label :evening
+        = f.check_box :evening
+      .span3
+  .row
+    %br
+  .row
+    .span12
+      .actions
+        = f.submit 'Save'
   .container
