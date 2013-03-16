@@ -31,8 +31,7 @@ en:
   evening_arrive: "Latecomers and laggards may laugh at the lurid libels that lurk in the best men’s speech"
   all_over: "Alas, time, our old enemy, must vanquish us once more..."
   cautionary_note: "A cautionary_note:"
-  weather_warning: |
-    Our bandstand is in the great outdoors. In April.. In England...
-    Preparation is virtuous. Prayers for clement weather much appreciated
+  weather_warning1: "Our bandstand is in the great outdoors. In April.. In England..."
+  weather_warning2: "Preparation is virtuous. Prayers for clement weather much appreciated"
 #Brand
   brand: "J%K's Wedding"

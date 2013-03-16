@@ -30,8 +30,7 @@ pt-BR:
   evening_arrive: "Tem início o tão esperado (e supostamente engracado) discurso do melhor amigo do noivo, seguido da primeira danca - a festa esta so comecando..."
   all_over: "E chega a hora mais difícil deste dia tão especial... a hora de partir"
   cautionary_note: "Nota importante:"
-  weather_warning: |
-    o coreto e o jardim são ao ar livre. Em abril... Na Inglaterra... Guarda-chuvas e casacos são bem vindos. Orações
-    por um dia quente e ensolarado... melhor ainda!
+  weather_warning1: "O coreto e o jardim são ao ar livre. Em abril... Na Inglaterra..."
+  weather_warning2: "Guarda-chuvas e casacos são bem vindos. Orações por um dia quente e ensolarado... melhor ainda!"
 #Brand
   brand: "O Casamento de Janaina é Keiran"
