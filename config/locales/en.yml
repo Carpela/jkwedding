@@ -11,8 +11,7 @@ en:
   contact: "Contact"
   directions: "Directions"
 #RSVP form
-  firstname_label: "First Name"
-  lastname_label: "Surname"
+  firstname_label: "Name"
   email_label: "Email"
   specialfood_label: "Any Dietary Requirements"
   coming_to: "It would be really useful to know which parts of the wedding you're planning to come to"

@@ -11,7 +11,6 @@ pt-BR:
   directions: "Mapas"
 #RSVP form
   firstname_label: "Nome"
-  lastname_label: "Sobrenome"
   email_label: "Email"
   specialfood_label: "Restricoes alimentares?"
   coming_to: "Em quais ocasioes do nosso grande dia voce planeja estar conosco?"

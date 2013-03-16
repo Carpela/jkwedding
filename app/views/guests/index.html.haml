@@ -3,7 +3,6 @@
 %table
   %tr
     %th firstname
-    %th lastname
     %th
     %th
     %th
@@ -14,7 +13,6 @@
   - @guests.each do |guest|
     %tr
       %td= guest.firstname
-      %td= guest.lastname
       %td= guest.email
       %td= guest.specialfood
       %td= guest.ceremony
