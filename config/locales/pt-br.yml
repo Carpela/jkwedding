@@ -20,17 +20,17 @@ pt-BR:
   evening_label: "A Festa De Noite"
 #Order
   order: "Agenda:"
-  gather: "Crowds, but pray not clouds, gather at the "
-  vows_exchanged: "A little later: -  Our vows will be made and rings exchanged under the eyes of those we love"
-  picnic_start: "A little more later: - The bubbly shall burst forth in a frenzy of champagne picnickery"
-  all_aboard: "All aboard our trusty steeds in search of "
-  wine_women: "wine, sustenance and song"
-  kids_leave: "With regret, we must bid adieu to our younger guests at this juncture"
-  evening_arrive: "Latecomers and laggards may laugh at the lurid libels that lurk in the best men’s speech"
-  all_over: "Alas, time, our old enemy, must vanquish us once more..."
-  cautionary_note: "A cautionary_note:"
+  gather: "Os convidados se reunirão no coreto do "
+  vows_exchanged: "Um pouco mais tarde, faremos nossos votos e trocaremos alianças sob o olhar de todos os nossos queridos."
+  picnic_start: "Um pouco mais tarde ainda, abriremos algumas garrafas de champagnes para nosso picnic e início das comemorações."
+  all_aboard: "começa a jornada que culmina em um banquete com "
+  wine_women: "vinhos, boa comida e muita música"
+  kids_leave: ""
+  evening_arrive: "Hora de testemunhar as maravilhas do discurso do melhor amigo do noivo - e torcer para que a festa comece logo!"
+  all_over: "E chega a hora mais difícil deste dia tão especial... a hora de partir"
+  cautionary_note: "Nota importante:"
   weather_warning: |
-    Our bandstand is in the great outdoors. In April.. In England...
-    Preparation is virtuous. Prayers for clement weather much appreciated
+    o coreto e o jardim são ao ar livre. Em abril... Na Inglaterra... Guarda-chuvas e casacos são bem vindos. Orações
+    por um dia quente e ensolarado... melhor ainda!
 #Brand
   brand: "O Casamento de Janaina é Keiran"
