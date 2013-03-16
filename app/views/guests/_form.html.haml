@@ -19,11 +19,15 @@
       .span3
         = f.text_field :email
   .row
-    .span12
+    .span5.offset1
       %h4=t :specialfood_label
+    .span5
+      %h4=t :message_label
   .row
-    .span12
+    .span5.offset1
       = f.text_area :specialfood
+    .span5
+      = f.text_area :message
   .row
     .span12
       %h4 It would be really useful to know which parts of the wedding you're planning to come to
