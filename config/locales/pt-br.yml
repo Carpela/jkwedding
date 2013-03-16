@@ -1,7 +1,6 @@
 # Sample localization file for English. Add more files in this directory for other locales.
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
-pt-br:
+pt-BR:
   welcome_text: "queria dizer bemvindo no casamento deles"
   mr: "Sr."
   miss: "Srta"
@@ -9,19 +8,21 @@ pt-br:
   rsvp: "RSVP"
   theday: "A Dia"
   contact: "Contato"
-  directions: "direcoes"
+  directions: "Direcoes"
 #RSVP form
-	firstname_label: "Prenome"
-	lastname_label: "Nome"
-	email_label: "Email"
-	specialfood_label: "Necessidades dietéticas especiais?"
-	ceremony_label: "A Ceremonia"
-	meal_label: "A Jantar"
-	evening_label: "A Festa De Noite"
+  firstname_label: "Prenome"
+  lastname_label: "Nome"
+  email_label: "Email"
+  specialfood_label: "Necessidades dietéticas especiais?"
+  coming_to: "Estaria muito bem saber qual partes do casamento voces podem vir"
+  ceremony_label: "A Ceremonia"
+  meal_label: "A Jantar"
+  evening_label: "A Festa De Noite"
 #Order
   order: "Agenda:"
   gather: "Crowds, but pray not clouds, gather at the "
-  vows_exchanged: "A little more later: - The bubbly shall burst forth in a frenzy of champagne picnickery"
+  vows_exchanged: "A little later: -  Our vows will be made and rings exchanged under the eyes of those we love"
+  picnic_start: "A little more later: - The bubbly shall burst forth in a frenzy of champagne picnickery"
   all_aboard: "All aboard our trusty steeds in search of "
   wine_women: "wine, sustenance and song"
   kids_leave: "With regret, we must bid adieu to our younger guests at this juncture"
@@ -32,4 +33,4 @@ pt-br:
     Our bandstand is in the great outdoors. In April.. In England...
     Preparation is virtuous. Prayers for clement weather much appreciated
 #Brand
-	brand: "O Casamaneto de Janaina é Keiran"
+  brand: "O Casamento de Janaina é Keiran"

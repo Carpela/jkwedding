@@ -9,24 +9,24 @@
   .row.offset3
     .field
       .span1
-        = f.label :firstname, "First name"
+        = f.label :firstname, "#{t :firstname_label}"
       .span3
         = f.text_field :firstname
   .row.offset3
     .field
       .span1
-        = f.label :lastname, "Surname"
+        = f.label :lastname, "#{t :lastname_label}"
       .span3
         = f.text_field :lastname
   .row.offset3
     .field
       .span1
-        = f.label :email, "Email"
+        = f.label :email, "#{t :email_label}"
       .span3
         = f.text_field :email
   .row
     .span12
-      %h4 Any dietary requirements?
+      %h4=t :specialfood_label
   .row
     .span12
       = f.text_area :specialfood
@@ -38,13 +38,13 @@
     .field
       .span3
       .span2
-        = f.label :ceremony, "Ceremony and Picnic"
+        = f.label :ceremony, "#{t :ceremony_label}"
         = f.check_box :ceremony
       .span2
-        = f.label :meal, "Meal"
+        = f.label :meal, "#{t :meal_label}"
         = f.check_box :meal  
       .span2
-        = f.label :evening, "Evening Party"
+        = f.label :evening, "#{t :evening_label}"
         = f.check_box :evening
       .span3
   .row

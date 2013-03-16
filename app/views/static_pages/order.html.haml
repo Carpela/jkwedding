@@ -2,34 +2,34 @@
 	.span12
 
 		%h4 
-			Order of the day:
+			=t :order
 		%h4
-			2:30pm - Crowds, but pray not clouds, gather at the 
+			2:30pm - 
+			=t :gather
 			%a
 				= link_to "Horniman Bandstand", directions_path
 		%h4
-			A little later: -  Our vows will be made and rings exchanged under the eyes of those we love
+			=t :vows_exchanged
 		%h4
-			A little more later: - The bubbly shall burst forth in a frenzy of champagne picnickery
+			=t :picnic_start
 		%h4 
-			5:30pm - All aboard our trusty steeds in search of 
+			5:30pm - 
+			=t :all_aboard
 			%a
-				= link_to "wine, sustenance and song", directions_path
+				= link_to "#{t :wine_women}", directions_path
 		%h4
-			With regret, we must bid adieu to our younger guests at this juncture
-
+			=t :kids_leave
 		%h4 
-			8:30pm - latecomers and laggards may laugh at the lurid libels that lurk in the best men’s speech
-
+			8:30pm - 
+			=t :evening_arrive
 		%h4 
-			1:30am - Alas, time, our old enemy, must vanquish us once more...
-
+			1:30am - 
+			=t :all_over
 		%h5 
-			A cautionary note: 
+			=t :cautionary_note
 		%p 
-			Our bandstand is in the great outdoors. In April... In England... 
-		%p 
-			Preparation is virtuous. Prayers for clement weather much appreciated
+			=t :weather_warning
+		%p
 
 
     

@@ -1,8 +1,10 @@
-= link_to "J&K's wedding", root_path, :class => 'brand'
+= link_to "#{t :brand}", root_path, :class => 'brand'
 
 %h3.nav.pull-right
-	= link_to "RSVP", new_guest_path
+	= link_to "#{t :rsvp}", new_guest_path
 	= link_to "#{t :theday}", order_path
-	= link_to "Directions", directions_path
-	= mail_to "wedding@betteley.me", "Contact", :target => '_blank' 
+	= link_to "#{t :directions}", directions_path
+	= mail_to "wedding@betteley.me", "#{t :contact}", :target => '_blank' 
+	= link_to image_tag('/assets/gb.gif'), url_for( :locale => 'en' )
+	= link_to image_tag('/assets/br.gif'), url_for( :locale => 'pt-BR' )
 	-#= link_to "Guest List", guests_path	

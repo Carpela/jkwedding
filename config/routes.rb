@@ -1,21 +1,20 @@
 Jkwedding::Application.routes.draw do
   
-  resources :guests
 
 
   get "static_pages/home"
 
   root to: "static_pages#home"
   match '/order', to: "static_pages#order"
-
   match '/directions', to: 'static_pages#directions'
-
-  match '/help', to: "static_pages#help"
-
-  match '/about', to: "static_pages#about"
-
   match '/contact', to: "static_pages#contact"
+  
+  scope "(:locale)", :locale => /en|pt-BR/ do
+    resources :guests
+  end
+
   resources :guests
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
