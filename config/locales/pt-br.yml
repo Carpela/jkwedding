@@ -10,6 +10,7 @@ pt-BR:
   contact: "Contato"
   directions: "Mapas"
 #RSVP form
+  rsvp_subtitle: "(Um para cada convidado)"
   firstname_label: "Nome"
   email_label: "Email"
   specialfood_label: "Restricoes alimentares?"

@@ -11,9 +11,10 @@ en:
   contact: "Contact"
   directions: "Directions"
 #RSVP form
+  rsvp_subtitle: "(one for each guest)"
   firstname_label: "Name"
   email_label: "Email"
-  specialfood_label: "Any Dietary Requirements"
+  specialfood_label: "Any dietary requirements?"
   coming_to: "It would be really useful to know which parts of the wedding you're planning to come to"
   ceremony_label: "Ceremony and Picnic"
   meal_label: "Meal"
