@@ -2,22 +2,29 @@
 
 %table
   %tr
-    %th firstname
+    %th 
+      =t :firstname_label
     %th
+      =t :ceremony_label
     %th
+      =t :meal_label
     %th
+      =t :evening_label
+    %th 
+      =t :email
+    %th 
+      =t :specialfood_label 
     %th
-    %th
-    %th
-
+      =t :message_label
   - @guests.each do |guest|
     %tr
       %td= guest.firstname
-      %td= guest.email
-      %td= guest.specialfood
       %td= guest.ceremony
       %td= guest.meal
       %td= guest.evening
+      %td= guest.email
+      %td= guest.specialfood
+      %td= guest.message
       %td= link_to 'Show', guest
 -#      %td= link_to 'Edit', edit_guest_path(guest)
 -#      %td= link_to 'Destroy', guest, :method => :delete, :data => { :confirm => 'Are you sure?' }
