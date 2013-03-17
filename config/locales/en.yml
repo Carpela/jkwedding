@@ -8,7 +8,7 @@ en:
 #Navigation
   rsvp: "RSVP"
   theday: "The Day"
-  contact: "Contact"
+  contact: "Contact Us"
   directions: "Directions"
 #RSVP form
   rsvp_subtitle: "(one for each guest)"
@@ -37,6 +37,9 @@ en:
   brand: "J&K's Wedding"
 #Contact Email
   email_subject: "A message from Keiran's brilliant wedding site"
+  reasons_mail: "Send us an email at "
+  reasons_phone: "Or, if you need to talk to one of us..."
+
 #Gifts
   gifts: "Wedding List"
   gifts_intro: "We'd love to say that you being there is all we want, but let's face it... EVERYONE loves getting presents. We'll put some outrageous things in a list, that we'd love but could never justify buying ourselves, alternatively, if you think there's something we'd enjoy doing, or something that will make us smile, please feel free to use your imagination and get us something that could only be from you. Though if someone desperately felt the need to drop off the keys to a freshly reconditioned early 60s E-Type Roadster (in British Racing Green), then Keiran promises not to be upset."

@@ -6,7 +6,7 @@
 	= link_to "#{t :theday}", order_path
 	= link_to "#{t :directions}", directions_path
 	= link_to "#{t :gifts}", gifts_path
-	= mail_to "wedding@betteley.me", "#{t :contact}",  :subject => "#{t :email_subject}", :target => '_blank' 
+	= link_to "#{t :contact}", contact_path
 	= link_to image_tag('/assets/gb.gif'), url_for( :locale => 'en' )
 	= link_to image_tag('/assets/br.gif'), url_for( :locale => 'pt-BR' )
 	-#= link_to "Guest List", guests_path	
