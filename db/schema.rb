@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130318002745) do
+ActiveRecord::Schema.define(:version => 20130318003340) do
 
   create_table "guests", :force => true do |t|
     t.string   "firstname"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(:version => 20130318002745) do
     t.datetime "updated_at",                 :null => false
     t.string   "email"
     t.text     "message",     :limit => 255
+    t.boolean  "notcoming"
   end
 
 end

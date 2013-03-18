@@ -48,7 +48,12 @@
       .span3
   .row
     %br
+    .span3.offset4
+      = f.label :notcoming, "#{t :notcoming}"
+    .span1
+      = f.check_box :notcoming
   .row
+    %br
     .span12
       .actions
         = f.submit 'RSVP', class:"btn-inverse btn-large", style:"color:#FEFFF1;width:200px;height:50px;font-size:25px"

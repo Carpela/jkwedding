@@ -19,6 +19,7 @@ pt-BR:
   ceremony_label: "Cerimonia & Piquenique"
   meal_label: "Jantar"
   evening_label: "Festa"
+  notcoming: "Infelizmente, não poderei comparecer"
 #Order
   order: "Agenda:"
   gather: "Os convidados se reunirão no coreto do "

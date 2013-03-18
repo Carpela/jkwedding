@@ -20,6 +20,7 @@ en:
   ceremony_label: "Ceremony and Picnic"
   meal_label: "Meal"
   evening_label: "Evening Party"
+  notcoming: "Unforunately, I won't be able to be there"
 #Order
   order: "Order of the day:"
   gather: "Crowds, but pray not clouds, gather at the "
