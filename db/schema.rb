@@ -11,18 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130316222014) do
+ActiveRecord::Schema.define(:version => 20130318002745) do
 
   create_table "guests", :force => true do |t|
     t.string   "firstname"
-    t.string   "specialfood"
+    t.text     "specialfood", :limit => 255
     t.boolean  "ceremony"
     t.boolean  "meal"
     t.boolean  "evening"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
     t.string   "email"
-    t.string   "message"
+    t.text     "message",     :limit => 255
   end
 
 end
