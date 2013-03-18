@@ -19,21 +19,10 @@
       .span3
         = f.text_field :email
   .row
-    .span5.offset1
-      %h4=t :specialfood_label
-    .span5
-      %h4=t :message_label
-  .row
-    .span5.offset1
-      = f.text_area :specialfood
-    .span5
-      = f.text_area :message
-  .row
     .span12
       %h4
         =t :coming_to
   .row
-
     .field
       .span3
       .span2
@@ -52,6 +41,18 @@
       = f.label :notcoming, "#{t :notcoming}"
     .span1
       = f.check_box :notcoming
+  .row
+    %br
+  .row
+    .span5.offset1
+      %h4=t :specialfood_label
+    .span5
+      %h4=t :message_label
+  .row
+    .span5.offset1
+      = f.text_area :specialfood
+    .span5
+      = f.text_area :message
   .row
     %br
     .span12
