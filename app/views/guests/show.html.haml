@@ -1,9 +1,60 @@
 %p#notice= notice
-
-%p
-  %b firstname:
-  = @guest.firstname
-
+.row
+  .span2.offset3
+    %p
+      =t :firstname_label
+  .span5
+    %p
+      = @guest.firstname
+.row
+  .span2.offset3
+    %p
+      =t :ceremony_label
+  .span5
+    %p
+      = @guest.ceremony
+.row
+  .span2.offset3
+    %p
+      =t :meal_label
+  .span5
+    %p
+      = @guest.meal
+.row
+  .span2.offset3
+    %p
+      =t :evening_label
+  .span5
+    %p
+      = @guest.evening
+.row
+  .span2.offset3
+    %p
+      =t :notcoming
+  .span5
+    %p
+      = @guest.notcoming
+.row
+  .span2.offset3
+    %p
+      =t :email
+  .span5
+    %p
+    = @guest.email
+.row
+  .span2.offset3
+    %p
+      =t :specialfood_label 
+  .span5
+    %p
+      = @guest.specialfood
+.row
+  .span2.offset3
+    %p
+      =t :message_label
+  .span5
+    %p
+      = @guest.message
 -#= link_to 'Edit', edit_guest_path(@guest)
 \|
 = link_to 'Back', guests_path

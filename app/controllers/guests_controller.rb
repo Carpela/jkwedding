@@ -2,13 +2,21 @@ class GuestsController < ApplicationController
   # GET /guests
   # GET /guests.json
   def index
-    @guests = Guest.all
-
+    @guests = Guest.where("notcoming != ?", true)
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @guests }
     end
   end
+
+  def jkindex
+    @guests = Guest.all
+    respond_to do |format|
+      format.html # jkindex.html.erb
+      format.json { render json: @guests }
+    end
+  end
+
 
   # GET /guests/1
   # GET /guests/1.json
