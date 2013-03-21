@@ -22,32 +22,35 @@
     .span12
       %h4
         =t :coming_to
-  .row
-    .field
-      .span3
-      .span2
-        = f.label :ceremony, "#{t :ceremony_label}"
-        = f.check_box :ceremony
-      .span2
-        = f.label :meal, "#{t :meal_label}"
-        = f.check_box :meal  
-      .span2
-        = f.label :evening, "#{t :evening_label}"
-        = f.check_box :evening
-      .span3
+  .coming
+    .row
+      .field
+        .span3
+        .span2
+          = f.label :ceremony, "#{t :ceremony_label}"
+          = f.check_box :ceremony
+        .span2
+          = f.label :meal, "#{t :meal_label}"
+          = f.check_box :meal  
+        .span2
+          = f.label :evening, "#{t :evening_label}"
+          = f.check_box :evening
+        .span3
+  .notcoming
+    .row
+      %br
+      .span3.offset4
+        = f.label :notcoming, "#{t :notcoming}"
+      .span1
+        = f.check_box :notcoming
   .row
     %br
-    .span3.offset4
-      = f.label :notcoming, "#{t :notcoming}"
-    .span1
-      = f.check_box :notcoming
-  .row
-    %br
-  .row
-    .span5.offset1
-      %h4=t :specialfood_label
-    .span5
-      %h4=t :message_label
+  .specialfood
+    .row
+      .span5.offset1
+        %h4=t :specialfood_label
+      .span5
+        %h4=t :message_label
   .row
     .span5.offset1
       = f.text_area :specialfood
