@@ -14,3 +14,17 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree .
+$(document).ready(function () {            
+            $(".notcoming input[type='checkbox']").click(function () {
+                if ($(this).is(':checked')) {
+                    $(".coming input[type='checkbox']").removeAttr("checked");
+                    $("#guest_specialfood").html("");                    
+                }
+            });
+
+            $(".coming input[type='checkbox']").click(function () {
+                if ($(this).is(':checked')) {
+                    $("#guest_notcoming").removeAttr("checked");
+                }
+            });
+        });	
