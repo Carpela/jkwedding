@@ -10,6 +10,7 @@ Jkwedding::Application.routes.draw do
   match '/contact', to: "static_pages#contact"
   match '/gifts', to: "static_pages#gifts"
   match '/jkindex', to: "guests#jkindex"
+  match '/photos', to: "static_pages#photos"
   scope "(:locale)", :locale => /en|pt-BR/ do
     resources :guests
   end
